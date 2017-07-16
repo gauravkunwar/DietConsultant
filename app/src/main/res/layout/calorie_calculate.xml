@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="45dp"
+        android:text="Age"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="25dp"
+        android:text="Height (in cm)" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="25dp"
+        android:text="Weight (in kg)" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Gender"
+        android:layout_below="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+
+
+    <Button
+        android:id="@+id/calculate_button"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:text="Calculate"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="7"
+        android:inputType="number"
+        android:gravity="center"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignStart="@+id/checkBox2" />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="7"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignStart="@+id/age" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diabetes"
+        android:layout_above="@+id/calculate_button"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_marginBottom="19dp"/>
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blood Pressure"
+        android:layout_alignTop="@+id/checkBox"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="65dp"/>
+
+    <TextView
+        android:id="@+id/toptext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Please fill up accurate informaton."
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="7"
+        android:gravity="center"
+        android:inputType="number"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignStart="@+id/weight" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity Level"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignStart="@+id/textView5" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGender"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_alignStart="@+id/weight">
+        <RadioButton
+            android:id="@+id/radioMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView5"
+            android:layout_alignBottom="@+id/textView5"
+            android:layout_alignStart="@+id/weight"
+            android:checked="true"
+            android:text="Male" />
+
+    <RadioButton
+        android:id="@+id/radioFemale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Female"
+        android:layout_alignBaseline="@+id/radioMale"
+        android:layout_alignBottom="@+id/radioMale"
+        android:layout_alignEnd="@+id/weight" />
+
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignStart="@+id/checkBox2"
+        android:id="@+id/radioActivity">
+
+        <RadioButton
+            android:id="@+id/lowActive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Low"
+            android:checked="true"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Moderate"
+            android:id="@+id/moderateActive"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/highActive"
+            android:text="High"/>
+    </RadioGroup>
+
+</RelativeLayout>
+

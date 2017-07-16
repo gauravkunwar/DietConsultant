@@ -1,0 +1,4367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:adjustViewBounds="true"
+            android:background="#ffffff"
+            android:divider="?android:listDivider"
+            android:dividerPadding="2.5dp"
+            android:isScrollContainer="true"
+            android:showDividers="middle">
+            <!-- Row 1 with single column -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_span="6"
+                    android:padding="18dip"
+                    android:text="Food List"
+                    android:textAlignment="center"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+            </TableRow>
+            <!-- Row with 9 columns -->
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Food"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Serving"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Cups"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Calorie"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Fat"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Carbohydrate"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Cholestrol"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="protein"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Fibre"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Homemade Chicken Noodle Soup "
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1.5"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="150"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="5g"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="21g"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="53mg"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Sona Masoori Rice"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1/45g" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="160" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="35g" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="4g" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="White Basmati Rice"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="75g" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="262" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.5" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="57.8" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="6.1" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1.7" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Basmati rice"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="191" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.61" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="39.85" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="5.59" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Black Lentils Urad Daal, "
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="251" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="16" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="10" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="9" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Amul ghee"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1 tea spoon" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="823" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="51" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="137" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0mg" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="16" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="16" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Chicken Chow Mein"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="600g" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1960" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="55" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="310" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="160mg" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="58" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="28" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Aladdin Beef Chow Mein"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="16oz" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="290" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="12" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="16" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="110" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="27" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Chicken Chow Mein"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2820" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="201" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="112" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="740mg" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="88g" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="33g" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Homemade Chicken Chow Mein"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="50z" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="670" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="25" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="105" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="6" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Vegetable Chow Mein"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1c" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2445" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="117" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="139" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="25" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="194" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="139" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Veg Momos(Steamed)"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1piece" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2445" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="117" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="139" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="25" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="194" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="139" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Steamed Chicken Momo"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1piece" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="7568" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="272" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1139" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="827" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="92" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Tibetan Momos"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="4piece" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="567" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="10" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="105" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="43" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="41" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Darjeeling Momos"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="12piece"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="4800"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Buffalo momo"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1p"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="64kcl"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="3"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="7"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="5"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Chicken  Momos"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="58kcal"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="3"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="7"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="6"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Momos"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="10piece"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="352"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="8"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="52"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="10mg"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="18"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="4"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Lime Pickle"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="-"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1tbsp"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="45"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="3"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="3"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Buffalo Burger Patty"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="113g"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="223"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Fried Sausage Ravioli"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="6p"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="380"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="18"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="40"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="40mg"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Fried potatoes"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="8"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="359.4"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="19.9"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="38.1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="36"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="10.1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2.4"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Boiled Potatoes"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="120g"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="86"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="20.4"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2.2"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1.4"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Boiled Egg (SOFT/HARD)"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="77"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="5.28"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.56"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="211"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="6.26"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Tea with Milk and Sugar"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1c/6 fl oz"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="30"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.82"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="4.97"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="3"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.93"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.1"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Green Tea"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1mug/8fl oz"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.47"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Tea(brewed)"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1c/8 fl oz"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.71"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Black tea"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1c/6"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.36"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=" Herbal tea"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1M/8"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.47"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Milk"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1c"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="122"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="4.88"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="11.49"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="17"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="8.03"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=" Asparagus (Kurilo)"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="100g"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="24.4kcal"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.6"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1.9"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2.9"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1.7"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=" Baked potato"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="100g"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="109k"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="25.2"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2.3"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2.4"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Boiled beetroot(sakarkhanda)"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="100g"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="44kcal"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.18"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="10"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1.7"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Broccoli (Brokauli) (raw)"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="100g"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="30.8k"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.9"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1.7"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="3.9"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2.6"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Broccoli(Brokauli)(boiled)"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="100g"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="24k"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.8"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1.1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="3.1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2.3"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=" Cabbage (boiled)"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="100g"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="15.3k"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.3"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2.2"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1.7"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Carrots (raw)"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="100g"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="43k"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.19"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="10.1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1.03"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="3"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=" Carrots (boiled in salted water)"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="100g"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="22k"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.4"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="4.4"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.6"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2.3"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Cauliflower(boiled)"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="100g"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="28k"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.9"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2.1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2.9"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1.6"
+                    android:typeface="serif" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=" Celery (selery saag)"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="100g"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="7k"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.2"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.9"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.5"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=" Chips, Deep Fried"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="100g"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="204.5"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="8.4"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="29.6"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="3.16"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1.2"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=" Cucumber"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="100g"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="100k"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1.5"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.7"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.6"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=" Green beans"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="100g"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="23.5kcal"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.41"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="3.15"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1.8"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2.92"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=" LETTUCE"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="100g"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="14.3k"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.33"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1.8"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1.1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1.2"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=" Button Mushrooms"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="100g"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="14.8k"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.44"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.5"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2.34"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1.2"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=" closed cap mushrooms"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="100g"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="13.5"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.5"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.4"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1.8"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1.08"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=" Fried mushroom"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="100g"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="157k"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="16.2"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.3"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2.4"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1.5"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=" Onions (raw)"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="100g"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="38.2k"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.2"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="8"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1.2"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1.3"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=" ONIONS(red)"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="100g"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="36.7"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.2"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="7.9"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1.2"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1.5"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=" Peas"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="100g"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="55k"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.6"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="7.1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="4.8"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="4.8"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Boiled new potatoes"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="72k"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="17"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="4.8"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="4.8"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Roast potatoes"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="149k"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="4.5"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="25.9"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2.9"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1.8"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Green peppers"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="15k"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.3"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2.6"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.8"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1.6"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Red Peppers"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="26.6k"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.3"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="5.3"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.8"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1.3"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Radish"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="12k"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.2"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1.9"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.7"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.9"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Baby spanish"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="25k"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.8"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1.6"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2.8"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2.1"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Tomato"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="18k"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="3.92"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.2"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.88"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1.2"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Homemade Tomatao pickle"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="30g"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="100"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="19"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="100mg"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Sweet pickle radish"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="100g"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="33.3"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="6.7"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Potato Chips,Deep Fried"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="100g"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="293"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="14.5"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="36.6"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="4.1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="4.2"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Soft drink (coke,pepsi)"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="7.5fl oz"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="88"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="24.4"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Nepali rayoko gundruk"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1c"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="598"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="27"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="49"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="85mg"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="31g"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="4g"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Nepali Liquor Raksi"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1ounce"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="550"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="22"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Nepali aata Flour"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="100g"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="400"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Homemade Nepali Dal"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1c"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="340"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="372mg"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="28g"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Nepali tomato achar"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="107g"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2446"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="90"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="222"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="172"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="131"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="47"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Nepali vegetable soup "
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1c"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="210"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="10"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="26"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="6"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow69"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?android:listDivider"
+                android:dividerPadding="2.5dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Beaten Rice (chiura)"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1/2cups"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="180"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="38"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="4"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:typeface="serif" />
+            </TableRow>
+        </TableLayout>
+    </HorizontalScrollView>
+</ScrollView>

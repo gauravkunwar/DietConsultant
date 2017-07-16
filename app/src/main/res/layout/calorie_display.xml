@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview1"
+        android:text="we recommend you to have"
+        android:layout_marginTop="75dp"
+        android:layout_marginStart="15dp"
+        android:layout_below="@+id/textView14"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/calorie_output"
+        android:text="2000"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+        android:layout_alignBaseline="@+id/textview1"
+        android:layout_alignBottom="@+id/textview1"
+        android:layout_toEndOf="@+id/textview1"
+        android:layout_marginStart="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview2"
+        android:text="calories / day."
+        android:layout_marginStart="5dp"
+        android:layout_alignBaseline="@+id/calorie_output"
+        android:layout_alignBottom="@+id/calorie_output"
+        android:layout_toEndOf="@+id/calorie_output" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:text="View your recommendation"
+        android:id="@+id/food_list"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="You are "
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textview1" />
+
+    <TextView
+        android:id="@+id/category_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..."
+        android:layout_alignBaseline="@+id/textView14"
+        android:layout_alignBottom="@+id/textView14"
+        android:layout_toEndOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..."
+        android:layout_above="@+id/calorie_output"
+        android:layout_alignStart="@+id/textView14"
+        android:layout_marginBottom="22dp" />
+
+
+</RelativeLayout>
